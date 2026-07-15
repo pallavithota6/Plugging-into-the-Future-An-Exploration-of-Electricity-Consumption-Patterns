@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plugging into the Future: Electricity Consumption Patterns</title>
+    <style>
+        /* ===== BODY & FONTS ===== */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin: 20px 0 5px 0;
+            opacity: 0;
+            animation: fadeIn 1s forwards 0.2s;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-bottom: 30px;
+            opacity: 0;
+            animation: fadeIn 1s forwards 0.6s;
+        }
+
+        /* ===== NAVIGATION BUTTONS ===== */
+        .nav-links {
+            margin-bottom: 30px;
+            opacity: 0;
+            animation: fadeIn 1s forwards 1s;
+        }
+
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1f618d;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #ff6b6b;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* ===== DASHBOARD STYLING ===== */
+        .tableau-section {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 1200px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+            transform: translateY(50px);
+            opacity: 0;
+            animation: fadeInUp 1s forwards;
+        }
+
+        .tableau-section + .tableau-section {
+            animation-delay: 0.3s;
+        }
+
+        .tableau-section:hover {
+            transform: translateY(0) scale(1.02);
+            transition: transform 0.3s ease;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            text-align: center;
+            margin: 50px 0 20px 0;
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* ===== ANIMATIONS ===== */
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .tableau-section {
+                margin: 30px 10px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Plugging into the Future</h1>
+    <h3>An Exploration of Electricity Consumption Patterns Using Tableau</h3>
+
+    <!-- Navigation buttons -->
+    <div class="nav-links">
+    <a href="#viz1771680523738">Dashboard 1</a> |
+    <a href="#viz17771680523738">Dashboard 2</a> |
+    <a href="#viz1771680583023">Story</a>
+</div>
+
+
+    <!-- ===================== DASHBOARD 1 ===================== -->
+    <div class='tableauPlaceholder' id='viz1771680523738' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;PluggingintotheFutureAnExplorationofElectricityConsumptionPatternsUsingTableau_17716766600390&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PluggingintotheFutureAnExplorationofElectricityConsumptionPatternsUsingTableau_17716766600390&#47;Dashboard1' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;PluggingintotheFutureAnExplorationofElectricityConsumptionPatternsUsingTableau_17716766600390&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1771680523738');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='1450px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+
+    <!-- ===================== DASHBOARD 2 ===================== -->
+    <div class='tableauPlaceholder' id='viz1771680559105' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;PluggingintotheFutureAnExplorationofElectricityConsumptionPatternsUsingTableau_17716766600390&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PluggingintotheFutureAnExplorationofElectricityConsumptionPatternsUsingTableau_17716766600390&#47;Dashboard2' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;PluggingintotheFutureAnExplorationofElectricityConsumptionPatternsUsingTableau_17716766600390&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1771680559105');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='1450px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+
+    <!-- ===================== STORY ===================== -->
+    <div class='tableauPlaceholder' id='viz1771680583023' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;PluggingintotheFutureAnExplorationofElectricityConsumptionPatternsUsingTableau_17716766600390&#47;TotalRegionConsumption&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PluggingintotheFutureAnExplorationofElectricityConsumptionPatternsUsingTableau_17716766600390&#47;TotalRegionConsumption' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pl&#47;PluggingintotheFutureAnExplorationofElectricityConsumptionPatternsUsingTableau_17716766600390&#47;TotalRegionConsumption&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1771680583023');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <footer>
+        © 2026 Plugging into the Future | Designed by MADDALA POOJITHA
+    </footer>
+
+</body>
+</html>
